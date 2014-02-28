@@ -113,7 +113,7 @@ m.Get("/", func(res http.ResponseWriter, req *http.Request) { // res 和 req 是
   * [martini.Context](http://godoc.org/github.com/codegangsta/martini#Context) - http request context （请求上下文）.
   * [martini.Params](http://godoc.org/github.com/codegangsta/martini#Params) - `map[string]string` of named params found by route matching. （名字和参数键值对的参数列表）
   * [martini.Routes](http://godoc.org/github.com/codegangsta/martini#Routes) - Route helper service. （路由协助处理）
-  * [http.ResponseWriter](http://godoc.org/net/http/#ResponseWriter) - http Response writer interface. (响应结果的流借口)
+  * [http.ResponseWriter](http://godoc.org/net/http/#ResponseWriter) - http Response writer interface. (响应结果的流接口)
   * [*http.Request](http://godoc.org/net/http/#Request) - http Request. （http请求)
 
 ### 路由
